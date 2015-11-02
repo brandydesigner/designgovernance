@@ -1,0 +1,148 @@
+html {
+  box-sizing: border-box;
+
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*
+================================================================================
+Typography.
+================================================================================
+*/
+
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset,
+figure {
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+
+h2 {
+  font-size: 24px;
+  font-weight: 900;
+  font-style: italic;
+  color: #808080;
+
+
+}
+h3 {
+  font-size: 18px;
+  color: #4d4d4d;
+
+}
+h4 {
+  font-style: italic;
+  font-size: 11px;
+}
+
+/*
+================================================================================
+Page Panels.
+================================================================================
+*/
+
+.page-panel {
+  padding-top: 300px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+
+  overflow: hidden;
+
+  height: 100%;
+}
+
+.page-panel:nth-child(odd) {
+  background-color: #ccc;
+}
+
+.page-panel:nth-child(even) {
+  background-color: #999;
+}
+
+.page-panel--background {
+  background-image: url("../images/photo-1441260038675-7329ab4cc264.jpg");
+  background-size: cover ;
+  background-position: center center;
+
+}
+
+.page-panel h2 {
+  position: relative;
+  padding-top: 5px;
+}
+
+.page-panel h2:before {
+  content: "";
+
+  background: #ccc;
+  width: 30px;
+  height: 5px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.big-number {
+  font-size: 100px;
+}
+
+
+.page-panel-padding {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.callout {
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
